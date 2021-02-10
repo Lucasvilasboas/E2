@@ -10,6 +10,7 @@ public class BufferCircular implements InterfaceBuffer {
 	public static void setBufferSize(int tamanho) {
 		MAX_SIZE = tamanho;
 	}
+	//teste git
 
 	@Override
 	public synchronized void escrever(Produtor quemEscreve, int valor) throws InterruptedException {
